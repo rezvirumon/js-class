@@ -28,3 +28,11 @@
 //     console.log("I will invest at least 6 hrs every single day for next 60 days!", message);
 //     message++;
 // }
+
+// while loop prctice task
+
+// let loginMsg = 1;
+// while(loginMsg <= 5){
+//     console.log('your id is expired', loginMsg);
+//     loginMsg++;
+// }

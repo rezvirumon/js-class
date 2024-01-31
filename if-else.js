@@ -79,6 +79,9 @@ var advacedBill = payBill - wifiBill;
 
 if (payBill === wifiBill) {
     console.log('Paid');
+     if(wifiBill === payBill){
+        console.log('thanks for paying your internet bill');
+    }
 }
 
 else if (payBill > wifiBill) {
@@ -91,13 +94,14 @@ else {
 
 // another if-else using find-out the number
 if (payBill > wifiBill){
-    console.log(advacedBill);
+    console.log(advacedBill, 'TK');
 }
 
 else if(wifiBill === payBill){
-    console.log(payBill);
+    console.log(payBill, 'TK');
 }
 
+
 else {
-    console.log(dueBill);
+    console.log(dueBill, 'TK');
 }
