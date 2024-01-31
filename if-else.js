@@ -70,3 +70,34 @@
 //     console.log("false")
 // }
 
+
+
+var wifiBill = 500;
+var payBill =  500;
+var dueBill = wifiBill - payBill;
+var advacedBill = payBill - wifiBill;
+
+if (payBill === wifiBill) {
+    console.log('Paid');
+}
+
+else if (payBill > wifiBill) {
+    console.log('Advanced');
+}
+
+else {
+    console.log('Unpaid');
+}
+
+// another if-else using find-out the number
+if (payBill > wifiBill){
+    console.log(advacedBill);
+}
+
+else if(wifiBill === payBill){
+    console.log(payBill);
+}
+
+else {
+    console.log(dueBill);
+}
